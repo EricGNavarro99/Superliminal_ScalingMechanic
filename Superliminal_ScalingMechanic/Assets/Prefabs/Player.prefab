@@ -169,5 +169,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ac73b71bb378b4387a75e018fb0f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sensitivity: 1000
+  _sensitivity: 400
   _player: {fileID: 172568335775275696}

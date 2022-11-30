@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    public float _sensitivity = 800f;
+    public float _sensitivity = 100f;
     public Transform _player = null;
     private float _xRotation = 0f;
 
@@ -20,6 +20,7 @@ public class MouseLook : MonoBehaviour
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90);
 
         transform.localRotation = Quaternion.Euler(_xRotation, 0f, 0f);
+
         _player.Rotate(Vector3.up * mouseX);
     }
 }
