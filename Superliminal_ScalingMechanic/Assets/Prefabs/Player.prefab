@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ac73b71bb378b4387a75e018fb0f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sensitivity: 200
+  _sensitivity: 150
   _player: {fileID: 172568335775275696}
 --- !u!114 &4196562307368736780
 MonoBehaviour:
@@ -185,7 +185,6 @@ MonoBehaviour:
   _ignoreTargetMask:
     serializedVersion: 2
     m_Bits: 119
-  _offsetFactor: 1
 --- !u!1 &4055504110097116110
 GameObject:
   m_ObjectHideFlags: 0
