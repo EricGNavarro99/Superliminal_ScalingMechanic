@@ -17,9 +17,13 @@ public class HoldGrabSystem : MonoBehaviour
     private void Update()
     {
         HandleInput();
-        ResizeTarget();
     }
 
+    private void FixedUpdate()
+    {
+        ResizeTarget();
+    }
+    
     private void HandleInput()
     {
         if (Input.GetMouseButtonDown(0))
